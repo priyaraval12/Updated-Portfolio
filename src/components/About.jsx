@@ -38,8 +38,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Greetings! I'm Priyanshi, a Web3 Frontend Developer with a year of experience in React JS and smart contract development. I'm pleased with my contributions to important open-source web projects. As a freelancer, I prioritise seamless cooperation and excellent client communication to ensure successful outcomes across a variety of projects. I genuinely think that by pooling our unique abilities and knowledge, we can create exceptional digital solutions. Let us go on this trip together.
-
+       Hey, I'm Priyansi – started in tech roles, spent 3+ years in data analytics, now fully focused on Web3. I got into data because I liked finding patterns that actually explained things. Turned a 4-hour weekly report into 20 minutes with SQL and Power BI, built dashboards that caught problems before meetings happened. Now I work with blockchain data—on-chain metrics, user behavior, protocol performance. My technical background helps me understand how these systems actually work, which means I catch things others miss. I use SQL, Python, whatever gets the job done, but the real skill is knowing what questions matter and explaining it so non-technical teams can run with it. If you're building in Web3 and need someone who moves fast and digs deep, let's connect.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services?.map((service, index) => (

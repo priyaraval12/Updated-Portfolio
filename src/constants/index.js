@@ -3,31 +3,30 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
+  SQL,
+  Python,
+  Excel,
+  Pandas,
+  NumPy,
+  Powerbi,
+  Tableau,
+  Ethereum,
+  Solidity, 
+  TheGraph,
+  API,
   mongodb,
   git,
-  figma,
-  docker,
   starbucks,
   tesla,
   carrent,
   jobit,
   tripguide,
-  threejs,
   Blocktube,
   Unite3,
   FNS,
   Portfolio,
   openbazar
 } from '../assets';
-
 export const navLinks = [
   {
     id: 'about',
@@ -45,97 +44,103 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Data Analyst & Visualization',
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Web3 Data Analyst',
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'Blockchain Analyst',
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Product & Bussiness Insights',
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'SQL',
+    icon: SQL,
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'Python',
+    icon: Python,
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'Excel',
+    icon: Excel,
+   
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Pandas',
+    icon: Pandas,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'NumPy',
+    icon: NumPy,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Powerbi',
+    icon: Powerbi,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Tableau',
+    icon: Tableau,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'Ethereum',
+    icon: Ethereum,
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
+    name: 'Solidity',
+    icon: Solidity,
   },
   {
-    name: 'Three JS',
-    icon: threejs,
+    name: 'TheGraph',
+    icon: TheGraph,
   },
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'API',
+    icon: API,
+  },
+  {
+    name: 'mongodb',
+    icon: mongodb,
   },
 ];
 
 const experiences = [
-  {
-    title: 'Web3 Backend Developer',
-    company_name: 'The Brand Global LTD.',
-    iconBg: '#383E56',
-    date: 'September 2021 - March 2023',
+   {
+    title: 'Senior Data Analyst',
+    company_name: 'Shri diam Inc.',
+    iconBg: '#E6DEDD',
+    date: 'December 2024 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and smart contract related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Work on Multipal chain and inteigration',
-      
+      'Owned inventory & stock analytics for diamond manufacturing/sales operations—built Python/SQL data pipelines, automated reconciliation, and ensured high data quality across purchasing, production, and sales tables.',
+      'Developed  dashboards tracking inventory turnover, aging stock, margin, order fulfillment, and demand trends to support weekly leadership reviews and revenue planning.',
+      'Delivered actionable insights & forecasts (ABC/XYZ classification, replenishment triggers, anomaly detection) to optimize stock levels, reduce stockouts/overstock, and improve operational efficiency.',
+      'Created SQL views and data models for repeatable self-service reporting, enabling faster root-cause analysis of inventory discrepancies (receiving, transfers, returns) and improving audit readiness.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Universe Technologies',
-    iconBg: '#E6DEDD',
-    date: 'internship ',
+    title: 'Senior Product-Data Analyst',
+    company_name: 'Ebizz infotech',
+    iconBg: '#383E56',
+    date: 'November 2020- May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Led product & sales analytics across 1.2M+ records / 38 tables, delivering Power BI KPI dashboards (auto-refresh) and executive insights that improved feature adoption 14% and reduced churn by 3–5% QoQ.',
+      'Built scalable ETL pipelines (Python, SQL) with automated validation/monitoring, raising data accuracy from ~92% → 99.5%, cutting manual reporting 30% (~8 hrs/week), and establishing data governance standards adopted company-wide.',
+      'Collaborated with cross-functional teams (Product, Engineering, Marketing) to define metrics, design experiments (A/B tests), and analyze results, influencing product roadmap and marketing strategies that boosted MRR by 12%+ over 6 months.',
+      'Mentored junior analysts and interns, fostering a data-driven culture through training sessions on SQL, data visualization best practices, and analytical thinking.',
+      
     ],
   },
   

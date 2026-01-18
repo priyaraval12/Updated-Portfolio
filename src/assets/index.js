@@ -7,19 +7,20 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import SQL from "./tech/SQL.png";
+import Python from "./tech/Python.png";
+import Excel from "./tech/Excel.png";
+import Pandas from "./tech/Pandas.png";
+import NumPy from "./tech/NumPy.png";
+import Powerbi from "./tech/Powerbi.png";
+import Tableau from "./tech/Tableau.png";
+import Ethereum from "./tech/Ethereum.png";
+import Solidity from "./tech/Solidity.png";
+import TheGraph from "./tech/TheGraph.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import API from "./tech/API.png";
 import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -47,19 +48,19 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
   git,
-  html,
-  javascript,
+  SQL,
+  Python,
+  Excel,
+  Pandas,
+  NumPy,
+  Powerbi,
+  Tableau,
+  Ethereum,
+  Solidity,
+  TheGraph,
+  API,
   mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
@@ -73,3 +74,5 @@ export {
   Portfolio,
   openbazar,
 };
+
+

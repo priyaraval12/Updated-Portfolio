@@ -18,7 +18,7 @@ const Hero = () => {
             HI, I'm <span className="text-[#919eff]">Priyansi Raval</span>{' '}
           </h1>
           <p>
-            I am Working on Web3 domain <br className="sm:block hidden" />{' '}
+            Data Analyst with a technical foundation, focused on Web3 and blockchain analytics <br className="sm:block hidden" />{' '}
           </p>
         </div>
       </div>

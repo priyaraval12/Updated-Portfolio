@@ -38,7 +38,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-       Hey, I'm Priyansi – started in tech roles, spent 3+ years in data analytics, now fully focused on Web3. I got into data because I liked finding patterns that actually explained things. Turned a 4-hour weekly report into 20 minutes with SQL and Power BI, built dashboards that caught problems before meetings happened. Now I work with blockchain data—on-chain metrics, user behavior, protocol performance. My technical background helps me understand how these systems actually work, which means I catch things others miss. I use SQL, Python, whatever gets the job done, but the real skill is knowing what questions matter and explaining it so non-technical teams can run with it. If you're building in Web3 and need someone who moves fast and digs deep, let's connect.
+       Hey, I'm Priyansi – Data Analyst with 3+ years of experience turning complex data into actionable insights that support business and product decisions. Skilled in Python, SQL, Power BI, and Tableau, I build ETL pipelines, predictive models, and interactive dashboards to track KPIs, analyze user behavior, and improve operational performance. My experience includes performing EDA, A/B testing, and cohort analysis to identify trends and support data-driven strategies while collaborating with cross-functional teams to deliver scalable analytics solutions.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services?.map((service, index) => (

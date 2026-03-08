@@ -26,6 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Grubhub from "./company/Grubhub.png";
+import Deloitte from "./company/Deloitte.png";
+
 
 
 import carrent from "./openbazar.png";
@@ -49,7 +52,7 @@ export {
   menu,
   close,
   git,
-  SQL,
+  SQL,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
   Python,
   Excel,
   Pandas,
@@ -67,6 +70,8 @@ export {
   tesla,
   carrent,
   jobit,
+  Grubhub,
+  Deloitte,
   tripguide,
   Blocktube,
   Unite3,

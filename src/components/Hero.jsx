@@ -18,7 +18,7 @@ const Hero = () => {
             HI, I'm <span className="text-[#919eff]">Priyansi Raval</span>{' '}
           </h1>
           <p>
-            Data Analyst with a technical foundation, focused on Web3 and blockchain analytics <br className="sm:block hidden" />{' '}
+            Data Analyst turning complex data into actionable insights using Python, SQL, ETL pipelines, and BI tools. <br className="sm:block hidden" />{' '}
           </p>
         </div>
       </div>

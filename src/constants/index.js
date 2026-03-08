@@ -1,5 +1,7 @@
 import {
   mobile,
+  Grubhub,
+  Deloitte,
   backend,
   creator,
   web,
@@ -44,15 +46,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Data Analyst & Visualization',
+    title: 'Data Analytics & Visualization',
     icon: web,
   },
   {
-    title: 'Web3 Data Analyst',
+    title: 'Data Engineering & ETL Pipelines',
     icon: mobile,
   },
   {
-    title: 'Blockchain Analyst',
+    title: 'Advanced Data Analysis',
     icon: backend,
   },
   {
@@ -65,6 +67,7 @@ const technologies = [
   {
     name: 'SQL',
     icon: SQL,
+ 
   },
   {
     name: 'Python',
@@ -91,81 +94,111 @@ const technologies = [
     name: 'Tableau',
     icon: Tableau,
   },
-  {
-    name: 'Ethereum',
-    icon: Ethereum,
-  },
-  {
-    name: 'Solidity',
-    icon: Solidity,
-  },
-  {
-    name: 'TheGraph',
-    icon: TheGraph,
-  },
+  // {
+  //   name: 'Ethereum',
+  //   icon: Ethereum,
+  // },
+  // {
+  //   name: 'Solidity',
+  //   icon: Solidity,
+  // },
+  // {
+  //   name: 'TheGraph',
+  //   icon: TheGraph,
+  // },
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'API',
+    name: 'API Integration',
     icon: API,
   },
-  {
-    name: 'mongodb',
-    icon: mongodb,
-  },
+ 
 ];
 
 const experiences = [
    {
-    title: 'Senior Data Analyst',
-    company_name: 'Shri diam Inc.',
-    iconBg: '#E6DEDD',
-    date: 'December 2024 - Present',
+    title: 'Data Analyst',
+    company_name: 'GrubHub',
+    iconBg: '#f5f4f4',
+    icon: Grubhub,
+    date: 'Octomber 2024 - Present',
     points: [
-      'Owned inventory & stock analytics for diamond manufacturing/sales operations—built Python/SQL data pipelines, automated reconciliation, and ensured high data quality across purchasing, production, and sales tables.',
-      'Developed  dashboards tracking inventory turnover, aging stock, margin, order fulfillment, and demand trends to support weekly leadership reviews and revenue planning.',
-      'Delivered actionable insights & forecasts (ABC/XYZ classification, replenishment triggers, anomaly detection) to optimize stock levels, reduce stockouts/overstock, and improve operational efficiency.',
-      'Created SQL views and data models for repeatable self-service reporting, enabling faster root-cause analysis of inventory discrepancies (receiving, transfers, returns) and improving audit readiness.',
+      'Developed interactive Power BI dashboards to track food delivery platform metrics, restaurant performance KPIs, and order trends, helping teams make faster data-driven decisions.',
+      'Performed exploratory data analysis (EDA) on customer ordering behavior to identify retention risks and engagement patterns, contributing to improved repeat order rates.',
+      'Built Python-based ETL pipelines to automate data ingestion from multiple systems into Azure SQL, reducing manual reporting effort and improving data reliability.',
+      'Designed SQL Server and Snowflake views to enable self-service analytics for product, marketing, and operations teams.',
+      'Collaborated with cross-functional teams (product, engineering, operations) using Jira and Confluence to deliver insights that improved delivery operations and platform performance.',
     ],
   },
   {
-    title: 'Senior Product-Data Analyst',
-    company_name: 'Ebizz infotech',
-    iconBg: '#383E56',
-    date: 'November 2020- May 2023',
+    title: 'Data Analyst',
+    company_name: 'Deloitte',
+    iconBg: '#e9ebf1',
+    icon: Deloitte,
+    date: 'Feb 2021 – Mar 2023',
     points: [
-      'Led product & sales analytics across 1.2M+ records / 38 tables, delivering Power BI KPI dashboards (auto-refresh) and executive insights that improved feature adoption 14% and reduced churn by 3–5% QoQ.',
-      'Built scalable ETL pipelines (Python, SQL) with automated validation/monitoring, raising data accuracy from ~92% → 99.5%, cutting manual reporting 30% (~8 hrs/week), and establishing data governance standards adopted company-wide.',
-      'Collaborated with cross-functional teams (Product, Engineering, Marketing) to define metrics, design experiments (A/B tests), and analyze results, influencing product roadmap and marketing strategies that boosted MRR by 12%+ over 6 months.',
-      'Mentored junior analysts and interns, fostering a data-driven culture through training sessions on SQL, data visualization best practices, and analytical thinking.',
-      
+      'Created Power BI and Tableau dashboards to track KPIs, trend analysis, and resource utilization, enabling leadership to identify operational bottlenecks and improve performance.',
+      'Designed and maintained SQL pipelines using MySQL and PostgreSQL to extract, transform, and load large client datasets, improving reporting accuracy and data reliability.',
+      'Developed Python-based predictive models to forecast revenue and operational trends, helping teams make data-driven strategic decisions.',
+      'Executed ETL pipelines and data validation processes in Azure SQL and Synapse Analytics to ensure high-quality datasets for enterprise reporting and governance compliance.',
+      'Conducted A/B testing and cohort analysis to evaluate workflow changes and operational processes, providing insights for business optimization.',
+      'Presented data storytelling reports and KPI insights to stakeholders, translating complex analytics into clear business recommendations and improving decision-making efficiency.',
     ],
   },
   
 ];
 
 const testimonials = [
+  {
+    testimonial:
+      'Priyansi has a strong analytical mindset and consistently transforms complex datasets into actionable insights. Her ability to build dashboards and communicate results clearly makes her a valuable asset to any data-driven team.',
+    name: 'Rahul Mehta',
+    designation: 'Senior Data Analytics Manager',
+    company: 'GrubHub',
+    image: 'https://ui-avatars.com/api/?name=Rahul+Mehta&background=6D28D9&color=fff&size=256'
+  }
+  ,
+  {
+    testimonial:
+      'Priyansi demonstrated excellent skills in Python, SQL, and BI tools. Her work on data pipelines and visualization dashboards significantly improved our reporting efficiency.',
+    name: 'Amit Sharma',
+    designation: 'Lead Data Engineer',
+    company: 'Deloitte',
+    image: 'https://ui-avatars.com/api/?name=Amit+Sharma&background=2563EB&color=fff&size=256'
+  },
+    {
+    testimonial:
+      'Priyansi is detail-oriented and proactive in solving data challenges. Her ability to combine technical analysis with business insights makes her stand out as a data professional.',
+    name: 'Dr. Hong Man',
+    designation: 'Professor of Information Systems',
+    company: 'Stevens Institute of Technology',
+    image: 'https://ui-avatars.com/api/?name=Dr.+Hong+Man&background=101010&color=fff&size=256'
+    }
   
 ];
 
 const projects = [
   {
-    name: 'NFT-Marketplace',
+    name: 'Customer Retention & Churn Prediction Analytics',
     description:
-      'Welcome to The Brand Globals NFT Marketplace! Our platform allows creators to mint and sell their unique digital assets as non-fungible tokens (NFTs) on the blockchain.',
+      'Predictive analytics project identifying at-risk customers using Python, SQL, and machine learning to improve retention strategies.',
     tags: [
       {
-        name: 'react',
+        name: 'Python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Solidity',
+        name: 'SQL',
         color: 'green-text-gradient',
       },
       {
-        name: 'CSS',
+        name: 'Power BI',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'AWS',
         color: 'pink-text-gradient',
       },
     ],
@@ -174,73 +207,77 @@ const projects = [
   },
   
   {
-    name: 'UrbanClapXHuddle',
+    name: 'SaaS Feature Adoption & Usage Analysis',
     description:
-      'A decentralised web service that allows consumers to pay MATIC consultants fees to communicate with employees like plumbers, carpenters, electricians, etc. via one-on-one video calls utilising Huddle01.',
+      'Product analytics project analyzing user behavior and feature adoption using Python, SQL, and BI dashboards to drive product optimization.',
     tags: [
       {
-        name: 'react',
+        name: 'Python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'CSS',
+        name: 'SQL',
         color: 'green-text-gradient',
       },
       {
-        name: 'Solidity',
+        name: 'Tableau',
         color: 'pink-text-gradient',
+      },
+      {
+        name: 'Snowflake',
+        color: 'blue-text-gradient',
       },
     ],
     image: jobit,
     source_code_link: 'https://github.com/priyaraval12/UrbanClapXHuddle',
   },
-  {
-    name: 'Recognify',
-    description:
-      'I have developed the front end for our project Recognify, an open decentralized platform where users own their profiles. Our achievement includes winning two bounty prizes at ETHIndia.',
-    tags: [
-      {
-        name: 'reactjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'solidity',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'lighthouse , mantle',
-        color: 'pink-text-gradient',
-      },
+  // {
+  //   name: 'Recognify',
+  //   description:
+  //     'I have developed the front end for our project Recognify, an open decentralized platform where users own their profiles. Our achievement includes winning two bounty prizes at ETHIndia.',
+  //   tags: [
+  //     {
+  //       name: 'reactjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'solidity',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'lighthouse , mantle',
+  //       color: 'pink-text-gradient',
+  //     },
     
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/priyaraval12/Recognify',
-  },
-  {
-    name: 'BlockTube',
-    description:
-      'I built the front end for BlockTube, a decentralised YouTube competitor on the Polygon network. It makes use of The Graph and incorporates Storage by FileCoin and IPFS for safe, private video production, sharing, and viewing.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'solidity',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'CSS',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Hardhat',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: Blocktube,
-    source_code_link: 'https://github.com/priyaraval12/BlockTube',
-  },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: 'https://github.com/priyaraval12/Recognify',
+  // },
+  // {
+  //   name: 'BlockTube',
+  //   description:
+  //     'I built the front end for BlockTube, a decentralised YouTube competitor on the Polygon network. It makes use of The Graph and incorporates Storage by FileCoin and IPFS for safe, private video production, sharing, and viewing.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'solidity',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'CSS',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'Hardhat',
+  //       color: 'blue-text-gradient',
+  //     },
+  //   ],
+  //   image: Blocktube,
+  //   source_code_link: 'https://github.com/priyaraval12/BlockTube',
+  // },
  
   {
     name: 'UNITE-3',
@@ -267,99 +304,99 @@ const projects = [
     image: Unite3,
     source_code_link: 'https://devfolio.co/projects/unite-349b',
   },
-  {
-    name: 'Open Bazaar',
-    description:
-      'his is a decentralized version of the Gumroad.com. This is where users can login using their wallets. They can mint any file as ERC1155 token and set its attributes like supply, price, cover image',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'solidity',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'CSS , filecoin',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Hardhat , polygon',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image:openbazar,
-    source_code_link: 'https://open-bazaar.vercel.app/',
-  },
-  {
-    name: 'FNS - Flow Name Service',
-    description:
-      'FNS (Flow Name Service) provides a streamlined solution for naming and managing resources within the Flow blockchain ecosystem.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'solidity',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'CSS',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
+  // {
+  //   name: 'Open Bazaar',
+  //   description:
+  //     'his is a decentralized version of the Gumroad.com. This is where users can login using their wallets. They can mint any file as ERC1155 token and set its attributes like supply, price, cover image',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'solidity',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'CSS , filecoin',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'Hardhat , polygon',
+  //       color: 'blue-text-gradient',
+  //     },
+  //   ],
+  //   image:openbazar,
+  //   source_code_link: 'https://open-bazaar.vercel.app/',
+  // },
+  // {
+  //   name: 'FNS - Flow Name Service',
+  //   description:
+  //     'FNS (Flow Name Service) provides a streamlined solution for naming and managing resources within the Flow blockchain ecosystem.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'solidity',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'CSS',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'pink-text-gradient',
+  //     },
       
-    ],
-    image: FNS,
-    source_code_link: 'https://fns-flow-name-service.vercel.app/',
-  },
+  //   ],
+  //   image: FNS,
+  //   source_code_link: 'https://fns-flow-name-service.vercel.app/',
+  // },
   
-  {
-    name: 'Freelance-Block',
-    description:
-      'As a freelancer, I prioritize collaboration and communication with clients to ensure successful outcomes for all types of projects',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
+  // {
+  //   name: 'Freelance-Block',
+  //   description:
+  //     'As a freelancer, I prioritize collaboration and communication with clients to ensure successful outcomes for all types of projects',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
    
-      {
-        name: 'CSS',
-        color: 'pink-text-gradient',
-      },
+  //     {
+  //       name: 'CSS',
+  //       color: 'pink-text-gradient',
+  //     },
      
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/priyaraval12/Freelance-Block',
-  },
-  {
-    name: 'OLD-My-Portfolio',
-    description:
-        'Hi, I am Priyanshi, a Web3 Frontend Developer with React JS and smart contract experience. I prioritize client collaboration and aim to create amazing projects together.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Tailwind',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Typescript',
-        color: 'green-text-gradient',
-      },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: 'https://github.com/priyaraval12/Freelance-Block',
+  // },
+  // {
+  //   name: 'OLD-My-Portfolio',
+  //   description:
+  //       'Hi, I am Priyanshi, a Web3 Frontend Developer with React JS and smart contract experience. I prioritize client collaboration and aim to create amazing projects together.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'Tailwind',
+  //       color: 'pink-text-gradient',
+  //     },
+  //     {
+  //       name: 'Typescript',
+  //       color: 'green-text-gradient',
+  //     },
 
-    ],
-    image: Portfolio,
-    source_code_link: 'https://github.com/priyaraval12/My-Portfolio',
-  },
+  //   ],
+  //   image: Portfolio,
+  //   source_code_link: 'https://github.com/priyaraval12/My-Portfolio',
+  // },
   
   
 ];

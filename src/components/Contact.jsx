@@ -57,16 +57,18 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.error('Status:', error?.status);
+          console.error('Text:', error?.text);
+          console.error('Full error:', error);
 
-          alert('Ahh, something went wrong. Please try again.');
+         alert(`Error: ${error?.text || 'Something went wrong'}`);
         }
       );
   };
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`min-h-screen flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
